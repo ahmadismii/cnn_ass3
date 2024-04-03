@@ -19,4 +19,4 @@ st.title("Simple Scatter Plot App")
 st.write("This app displays a scatter plot using randomly generated data.")
 
 # Display the scatter plot
-# st.pyplot(plt.scatter(df['X'], df['Y']))
+st.pyplot(plt.scatter(df['X'], df['Y']))
